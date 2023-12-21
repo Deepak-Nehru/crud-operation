@@ -1,0 +1,76 @@
+.container {
+    margin-top: 2rem;
+  }
+  
+  form {
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .row {
+    align-items: center;
+  }
+  
+  .col-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Optional: Adjust spacing if needed */
+  .btn {
+    margin-top: 0.5rem;
+  }
+  
+  .col-input {
+    margin-bottom: 1rem;
+  }
+  
+  .table {
+    margin-top: 1rem;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Optional: Center the table horizontally */
+  .table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Optional: Adjust spacing if needed */
+  .btn-sm {
+    margin-bottom: 0.5rem;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 1200px; /* Set a maximum width */
+  }
+  
+  /* Add the following rule for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%; /* Adjust the width for smaller screens */
+    }
+    .col-btn {
+      align-items: center; /* Center buttons on smaller screens */
+    }
+    .table-container {
+      overflow-x: auto; /* Add horizontal scroll for small screens */
+    }
+  }
+  
